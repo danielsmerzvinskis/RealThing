@@ -1,18 +1,37 @@
 .mainbox{
     background-color: dimgray;
+    width: 700px;
+    margin: 0px auto;
+
+}
+
+.menu{
+    background-color: hotpink;
 }
 
 .leftside{
     background-color: aqua;
+    width: 50px;
+    float:right
 }
 
 .main{
     background-color: dimgray;
-}
-.rightside{
-    background-color: red;
+    width: 500px;
+    float: left;
 }
 
-.footer{
+.rightside{
+    background-color: red;
+    width: 50px;
+    float: left;
+}
+
+.footer {
     background-color: aqua;
+}
+
+.menu{
+    height: 37px;
+    text-align: center;
 }
