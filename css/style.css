@@ -12,7 +12,7 @@
 .leftside{
     background-color: aqua;
     width: 50px;
-    float:right
+    float: right;
 }
 
 .main{
@@ -27,7 +27,7 @@
     float: left;
 }
 
-.footer {
+.footer{
     background-color: aqua;
 }
 
