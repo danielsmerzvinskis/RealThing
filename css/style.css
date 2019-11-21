@@ -1,8 +1,7 @@
 .mainbox{
     background-color: dimgray;
     width: 700px;
-    margin: 0px auto;
-
+    margin: 10px auto;
 }
 
 .menu{
@@ -11,20 +10,20 @@
 
 .leftside{
     background-color: aqua;
-    width: 50px;
-    float: right;
+    width: 100px;
+    float:left;
 }
 
 .main{
     background-color: dimgray;
-    width: 500px;
-    float: left;
+    width: 600px;
+    float:left;
 }
 
 .rightside{
     background-color: red;
-    width: 50px;
-    float: left;
+    width: 100px;
+    float:left;
 }
 
 .footer{
@@ -32,6 +31,17 @@
 }
 
 .menu{
-    height: 37px;
+    height: 90px;
+    width: 300px;
     text-align: center;
+}
+
+.menu>ul>{
+    display:inline;
+    padding: 10px 10px 10px 10px ;
+    background-color: dimgray;
+    position: relative;
+    top: 8px;
+    font-family: Tahoma, serif;
+    font-size: 14px;
 }
