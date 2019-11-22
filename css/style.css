@@ -1,47 +1,117 @@
-.mainbox{
-    background-color: dimgray;
-    width: 700px;
-    margin: 10px auto;
-}
-
-.menu{
-    background-color: hotpink;
-}
-
-.leftside{
-    background-color: aqua;
-    width: 100px;
-    float:left;
+body{
+    font-family: Tahoma;
 }
 
 .main{
+    width: 1000px;
     background-color: dimgray;
-    width: 600px;
-    float:left;
+    margin: 0px auto;
 }
 
-.rightside{
-    background-color: red;
-    width: 100px;
-    float:left;
+
+aside{
+    background-color: green;
 }
 
-.footer{
-    background-color: aqua;
+
+
+footer{
+
+    background-color: dimgray;
 }
 
-.menu{
-    height: 90px;
-    width: 300px;
+nav{
+    background-color: #000000;
+}
+
+
+nav>ul{
     text-align: center;
+    background-color: green;
+    height: 37px;
 }
 
-.menu>ul>{
-    display:inline;
-    padding: 10px 10px 10px 10px ;
-    background-color: dimgray;
+nav>ul>li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: purple;
     position: relative;
-    top: 8px;
-    font-family: Tahoma, serif;
+    top:8px;
+    font-family: Tahoma;
     font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+nav>ul>li>a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+
+
+.gallerybox{
+    width: 60px;
+    display:inline-block;
+}
+
+.small{
+    width: 60px;
+    height: 60px;
+}
+
+nav>ul>li>a:hover{
+    text-decoration: none;
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+h1{
+    background-color: red;
+}
+
+footer{
+    text-align: center;
+    width: 1000px;
+}
+
+.leftaside{
+    width: 300px;
+    background-color: #2B7309;
+    float:left;
+
+}
+
+main{
+    background-color: yellow;
+    width: 550px;
+    height: 150px;
+    float:left;
+}
+
+
+
+.rightaside{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    float:left;
+
+}
+
+footer{
+    clear: left;
+}
+
+
+.menu>li{
+    list-style-type: none;
+    font-size: 12px;
+
+}
+
+.menu>li>a{
+    text-decoration: none;
+}
+
