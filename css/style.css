@@ -4,6 +4,7 @@ body{
 
 .main{
     width: 1000px;
+    height: 300px;
     background-color: dimgray;
     margin: 0px auto;
 }
@@ -35,7 +36,7 @@ nav>ul>li{
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: purple;
+    background-color: black;
     position: relative;
     top:8px;
     font-family: Tahoma;
@@ -86,7 +87,7 @@ footer{
 main{
     background-color: yellow;
     width: 550px;
-    height: 150px;
+    height: 174px;
     float:left;
 }
 
